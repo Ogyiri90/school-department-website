@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GCTU — Shaping Ghana's Digital Future</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="dark-theme">
+
+    <div id="loader" class="loader-container">
+        <div class="loader-content">
+            <img src="G logo.jpg" alt="GCTU Shield Logo" class="loader-shield" width="80" height="80">
+            <h2 class="loader-text">GCTU DIGITAL</h2>
+        </div>
+    </div>
+
+    <canvas id="three-canvas"></canvas>
+
+    <nav class="navbar" id="main-nav">
+        <div class="nav-container">
+            <a href="index.html" class="nav-brand">
+                <img src="G logo.jpg" alt="GCTU Brand Logo" class="brand-logo" width="42" height="42">
+                <div class="brand-text">
+                    <span class="brand-title">GCTU</span>
+                    <span class="brand-sub">Ghana Communication Technology University</span>
+                </div>
+            </a>
+            <ul class="nav-links">
+                <li><a href="index.html" class="nav-link active">Home</a></li>
+                <li><a href="about.html" class="nav-link">About</a></li>
+                <li><a href="portal.html" class="nav-link">Students Portal</a></li>
+                <li><a href="contact.html" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="nav-actions">
+                <a href="portal.html" class="btn-cta-pill">Student Login</a>
+                <button type="button" class="mobile-toggle" aria-label="Toggle Navigation"><i
+                        class="fas fa-bars"></i></button>
+            </div>
+        </div>
+    </nav>
+
+    <header class="hero-carousel-wrapper">
+        <div class="swiper heroSwiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <video autoplay loop muted playsinline class="hero-bg-video">
+                        <source src="GTU.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                    <div class="hero-overlay"></div>
+                </div>
+                <div class="swiper-slide">
+                    <video autoplay loop muted playsinline class="hero-bg-video">
+                        <source src="GTU.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                    <div class="hero-overlay"></div>
+                </div>
+                <div class="swiper-slide">
+                    <video autoplay loop muted playsinline class="hero-bg-video">
+                        <source src="GTU.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                    <div class="hero-overlay"></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="hero-content-overlay container">
+            <span class="eyebrow-text">Welcome to GCTU</span>
+            <h1 class="hero-main-title">Shaping Ghana's<br><span class="accent-text">Digital Future</span></h1>
+            <p class="hero-subtitle">Excellence in Communication Technology Education and Next-Gen Computational
+                Research.</p>
+            <div class="hero-cta-group">
+                <a href="#programs" class="btn-gold-fill">Explore Programs</a>
+                <a href="contact.html" class="btn-white-outline">Apply Now</a>
+            </div>
+        </div>
+
+        <a href="#stats-bar" class="scroll-chevron" aria-label="Scroll Down">
+            <i class="fas fa-chevron-down"></i>
+        </a>
+    </header>
+
+    <section id="stats-bar" class="stats-counter-strip">
+        <div class="container stats-grid">
+            <div class="stat-item">
+                <h3 class="stat-number" data-target="5000">0</h3>
+                <p class="stat-label">Active Students</p>
+            </div>
+            <div class="stat-divider"></div>
+            <div class="stat-item">
+                <h3 class="stat-number" data-target="120">0</h3>
+                <p class="stat-label">Expert Faculty</p>
+            </div>
+            <div class="stat-divider"></div>
+            <div class="stat-item">
+                <h3 class="stat-number" data-target="30">0</h3>
+                <p class="stat-label">Tech Programs</p>
+            </div>
+            <div class="stat-divider"></div>
+            <div class="stat-item">
+                <h3 class="stat-number" data-target="15">0</h3>
+                <p class="stat-label">Years of Excellence</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="programs" class="section-padding">
+        <div class="container">
+            <div class="section-header text-center">
+                <h2 class="section-title">Core Departments &amp; Specialties</h2>
+                <div class="title-underline"></div>
+            </div>
+            <div class="programs-grid">
+                <div class="glass-card program-card">
+                    <div class="card-icon"><i class="fas fa-code"></i></div>
+                    <h3>Computer Science</h3>
+                    <p>Deep dive into intelligent computing paradigms, artificial intelligence architectures, and robust
+                        computational engineering solutions.</p>
+                    <a href="about.html" class="card-link">Learn More <i class="fas fa-arrow-right"></i></a>
+                </div>
+                <div class="glass-card program-card">
+                    <div class="card-icon"><i class="fas fa-satellite-dish"></i></div>
+                    <h3>Telecommunications</h3>
+                    <p>Architect modern signal propagation arrays, optical distribution links, and next-generation 5G/6G
+                        communication frameworks.</p>
+                    <a href="about.html" class="card-link">Learn More <i class="fas fa-arrow-right"></i></a>
+                </div>
+                <div class="glass-card program-card">
+                    <div class="card-icon"><i class="fas fa-network-wired"></i></div>
+                    <h3>Information Technology</h3>
+                    <p>Integrate robust global enterprise cloud systems, cloud orchestration schemes, and enterprise
+                        full-stack ecosystems.</p>
+                    <a href="about.html" class="card-link">Learn More <i class="fas fa-arrow-right"></i></a>
+                </div>
+                <div class="glass-card program-card">
+                    <div class="card-icon"><i class="fas fa-shield-halved"></i></div>
+                    <h3>Cybersecurity</h3>
+                    <p>Deploy advanced threat mitigation strategies, cryptographic security vectors, and digital
+                        forensics response systems.</p>
+                    <a href="about.html" class="card-link">Learn More <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="marquee-news-strip">
+        <div class="marquee-container">
+            <div class="marquee-label">LATEST UPDATES</div>
+            <div class="marquee-window">
+                <div class="marquee-track">
+                    <span>🚀 GCTU wins National High-Performance Computing Challenge 2026!</span>
+                    <span>• Admission intake for the Fall Semester is currently ongoing. Apply online today.</span>
+                    <span>• International Symposium on Cloud and Network Virtualization opens next month.</span>
+                    <span>• Campus Network Upgrade completed with high-speed fiber backbone expansion.</span>
+                </div>
+            </div>
+            <a href="about.html" class="marquee-btn">View All News</a>
+        </div>
+    </section>
+
+    <footer class="main-footer">
+        <div class="container footer-grid">
+            <div class="footer-col brand-col">
+                <div class="footer-logo">
+                    <img src="G logo.jpg" alt="GCTU Footer Logo" class="logo-footer">
+                    <h4>GCTU</h4>
+                </div>
+                <p class="footer-desc">Pioneering standard-driven academic programs geared towards building critical
+                    digital assets for global technical operational superiority.</p>
+            </div>
+            <div class="footer-col">
+                <h4>Quick Links</h4>
+                <ul class="footer-links">
+                    <li><a href="index.html">Home Portfolio</a></li>
+                    <li><a href="about.html">Department Overview</a></li>
+                    <li><a href="portal.html">Students Hub</a></li>
+                    <li><a href="contact.html">Support Lines</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Contact Info</h4>
+                <p class="contact-line"><i class="fas fa-map-marker-alt"></i> Tesano Campus, Accra, Ghana</p>
+                <p class="contact-line"><i class="fas fa-phone"></i> +233 (0) 302 223344</p>
+                <p class="contact-line"><i class="fas fa-envelope"></i> admissions@gctu.edu.gh</p>
+            </div>
+            <div class="footer-col">
+                <h4>Follow Our Digital Footprint</h4>
+                <div class="social-links">
+                    <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" aria-label="Twitter"><i class="fab fa-x-twitter"></i></a>
+                    <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="#" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+                    <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom text-center">
+            <p>&copy; 2026 Ghana Communication Technology University. Designed with ❤️ in Ghana.</p>
+        </div>
+    </footer>
+
+    <button type="button" id="back-to-top" aria-label="Back to Top"><i class="fas fa-arrow-up"></i></button>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
